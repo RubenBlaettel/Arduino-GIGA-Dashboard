@@ -146,3 +146,7 @@ während des Uploads automatisch.
 - Der Touchscreen wird nicht verwendet; das Dashboard ist eine reine Anzeige.
 - [LVGL](https://github.com/lvgl/lvgl) steht unter der MIT-Lizenz. *Bahnschrift* ist eine Schrift von Microsoft;
   die daraus erzeugten Fonts sind nur für den privaten Gebrauch gedacht und werden nicht mitverteilt.
+
+## Lizenz
+
+[MIT](LICENSE) – gilt für den Code in diesem Repository, nicht für die lokal erzeugten Schriften.
