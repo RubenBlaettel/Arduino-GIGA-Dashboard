@@ -1,0 +1,19 @@
+# Build output
+build/
+
+# Third-party library, fetched at the pinned version (see README)
+lib/lvgl/
+
+# Fonts generated from Microsoft's Bahnschrift: private use only, never publish
+Dashboard/src/fonts/
+
+# Bridge runtime files
+bridge/logs/
+bridge/backups/
+bridge/.pause
+bridge/.shot
+bridge/.cmd
+__pycache__/
+
+# Debug screenshots from the display
+screenshots/

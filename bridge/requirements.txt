@@ -1,0 +1,7 @@
+pyserial>=3.5
+# now playing (media.py): Windows media controls and cover conversion
+winrt-Windows.Media.Control>=3.2
+winrt-Windows.Storage.Streams>=3.2
+winrt-Windows.Foundation>=3.2
+winrt-Windows.Foundation.Collections>=3.2
+Pillow>=11

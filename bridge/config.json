@@ -1,0 +1,31 @@
+{
+  "serial": {
+    "port": "auto",
+    "fallback_port": "COM6",
+    "usb_vid": "2341",
+    "usb_pid": "0266",
+    "baud": 115200
+  },
+  "sensors": {
+    "cpu": [
+      {"sensor": "^CPU \\[#0\\]", "label": "^CPU Package$"},
+      {"sensor": "", "label": "^(CPU Package|CPU \\(Tctl/Tdie\\)|Core Max)$"}
+    ],
+    "gpu": [
+      {"sensor": "^d?GPU \\[#0\\]", "label": "^GPU Temperature$"},
+      {"sensor": "", "label": "^GPU (Temperature|Core Temperature)$"}
+    ],
+    "ram": [
+      {"sensor": "", "label": "^(DIMM\\[\\d+\\] Temperature|SPD Hub Temperature|Memory Temperature|DDR5? .*Temperature)$"}
+    ]
+  },
+  "loads": {
+    "cpu": [{"sensor": "^CPU \\[#0\\]", "label": "^Total CPU Usage$"}],
+    "gpu": [{"sensor": "^d?GPU \\[#0\\]", "label": "^GPU (Core )?(Load|Utilization)$"}],
+    "ram": [{"sensor": "", "label": "^Physical Memory Load$"}]
+  },
+  "media": {
+    "apps": ["Spotify"],
+    "hide_after_s": 3
+  }
+}

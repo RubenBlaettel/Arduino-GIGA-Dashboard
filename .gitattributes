@@ -1,0 +1,5 @@
+# Keep LF line endings in the working copy (the project uses LF), CRLF only for batch files
+* text=auto eol=lf
+*.bat text eol=crlf
+*.jpg binary
+*.png binary
